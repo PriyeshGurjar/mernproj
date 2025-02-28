@@ -1,0 +1,14 @@
+
+{
+  "name": "mernproj",
+  "version": "1.0.0",
+  "description": "MERN stack project",
+  "scripts": {
+    "server": "cd backend && npm run start",
+    "client": "cd frontend/freetime && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
